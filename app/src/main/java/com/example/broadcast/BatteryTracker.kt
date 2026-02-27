@@ -11,8 +11,6 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
-import java.text.SimpleDateFormat
-import java.util.*
 
 data class BatteryLog(
     val timestamp: Long,

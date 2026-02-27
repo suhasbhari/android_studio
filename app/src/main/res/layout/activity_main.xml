@@ -14,6 +14,7 @@
         android:text="Alarm Status: Disabled"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:textColorHighlight="@color/material_dynamic_primary30"
         android:layout_marginBottom="32dp"/>
 
     <TextView
@@ -28,7 +29,7 @@
         android:id="@+id/btnEnable"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enable Alarm"
+        android:text="TURN ON ALARM"
         android:textSize="18sp"
         android:padding="16dp"
         android:layout_marginBottom="16dp"/>
